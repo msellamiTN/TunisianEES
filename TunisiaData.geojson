@@ -4,15 +4,16 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#80ff80",
+        "stroke": "#ff0000",
         "stroke-width": 2,
         "stroke-opacity": 1,
-        "fill": "#80ff80",
+        "fill": "#ff0000",
         "fill-opacity": 0.5,
         "name": "Entreprise A",
         "Sector": "Industry",
         "DependOn": "Entreprise B, Entreprise C",
-        "GRH": "RG01(20%) RG03(25)"
+        "GRH": "RG01(20%) RG03(25)",
+        "Status": "Lockdown"
       },
       "geometry": {
         "type": "Polygon",
@@ -41,6 +42,45 @@
             [
               10.220332145690918,
               36.75456484757913
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#00ff40",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#80ff00",
+        "fill-opacity": 0.5,
+        "Status": "Open",
+        "Risk Covid-19": "25%"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.217928886413574,
+              36.751556185318044
+            ],
+            [
+              10.216748714447021,
+              36.750954438707325
+            ],
+            [
+              10.218143463134766,
+              36.749527420735774
+            ],
+            [
+              10.219259262084961,
+              36.75026672251616
+            ],
+            [
+              10.217928886413574,
+              36.751556185318044
             ]
           ]
         ]
