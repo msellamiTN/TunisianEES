@@ -94,7 +94,8 @@
         "stroke-opacity": 1,
         "fill": "#80ff80",
         "fill-opacity": 0.5,
-        "Risk Covid-19": "25%"
+        "Risk Covid-19": "25%",
+         "New Risk Covid-19": "35%"
       },
       "geometry": {
         "type": "Polygon",
