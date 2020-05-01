@@ -4,12 +4,15 @@
     {
       "type": "Feature",
       "properties": {
-        "name":"Entreprise A",
-        "Sector":"Industry",
-        "RegionID":"RG01"
-        "DependOn":"Entreprise B, Entreprise C",
-        "GRH":"RG02(20%), RG03(35%)"
-        
+        "stroke": "#80ff80",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#80ff80",
+        "fill-opacity": 0.5,
+        "name": "Entreprise A",
+        "Sector": "Industry",
+        "DependOn": "Entreprise B, Entreprise C",
+        "GRH": "RG01(20%) RG03(25)"
       },
       "geometry": {
         "type": "Polygon",
